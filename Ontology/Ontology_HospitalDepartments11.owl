@@ -1,0 +1,1123 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2"
+     xml:base="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/"
+     xmlns:be3f3b2-8281-4060-ad9b-5afe901351e2="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7bFhFC8AfTUJ3jUn5UFHJ0 -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R7bFhFC8AfTUJ3jUn5UFHJ0">
+        <rdfs:label xml:lang="ru">Дата закупки аппаратуры</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R87RJqI3jhdwVpmL4WDz9Jv -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R87RJqI3jhdwVpmL4WDz9Jv">
+        <rdfs:label xml:lang="ru">Заболевание</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8X9z63rEeQSc0iLJ0bj2TU -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R8X9z63rEeQSc0iLJ0bj2TU">
+        <rdfs:label xml:lang="ru">Пол</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9BKOjQfmCPYyEhzmL31SFA -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R9BKOjQfmCPYyEhzmL31SFA">
+        <rdfs:label xml:lang="ru">Количество мест</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBFFjjjw8nawMgOGD9o0P4V -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RBFFjjjw8nawMgOGD9o0P4V">
+        <rdfs:label xml:lang="ru">Специализация</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBFRnO0PHJc3EfNzCSpYjkm -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RBFRnO0PHJc3EfNzCSpYjkm">
+        <rdfs:label xml:lang="ru">Адрес</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC4tVAqP6nbZ5fqpy5ngfOu -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RC4tVAqP6nbZ5fqpy5ngfOu">
+        <rdfs:label xml:lang="ru">Количество врачей</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC6Op9UK3OyI9bxc2rAAvUb -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RC6Op9UK3OyI9bxc2rAAvUb">
+        <rdfs:label xml:lang="ru">Год формирования</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDKMxhNew7CAHlWtuIbzFmU -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RDKMxhNew7CAHlWtuIbzFmU">
+        <rdfs:label xml:lang="ru">Возраст</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDtnd4ltC88etdX7FVir5Vk -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RDtnd4ltC88etdX7FVir5Vk">
+        <rdfs:label xml:lang="ru">Стаж работы</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7P3RZy3wk0hd7nwjlbzXuJ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7P3RZy3wk0hd7nwjlbzXuJ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">связан</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wf1y7sHwF5Xrd7TO2TEOV -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8wf1y7sHwF5Xrd7TO2TEOV">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R7P3RZy3wk0hd7nwjlbzXuJ"/>
+        <rdfs:label xml:lang="ru">имеет</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9eOa02BKfOWCv4H9MbIAG2 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9eOa02BKfOWCv4H9MbIAG2">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R7P3RZy3wk0hd7nwjlbzXuJ"/>
+        <rdfs:label>принадлежит</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBbpbJ1Unl2BdtwCPOLzCFS -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBbpbJ1Unl2BdtwCPOLzCFS">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R7P3RZy3wk0hd7nwjlbzXuJ"/>
+        <rdfs:label xml:lang="ru">работает</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCA7clLNgYlBFcdJJrSsGuh -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCA7clLNgYlBFcdJJrSsGuh">
+        <rdfs:label xml:lang="ru">лечится</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#имеет_стаж_работы -->
+
+    <owl:ObjectProperty rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#имеет_стаж_работы">
+        <owl:inverseOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#стаж_работы_имеет"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdfs:range rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стаж_работы"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#стаж_работы_имеет -->
+
+    <owl:ObjectProperty rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#стаж_работы_имеет">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стаж_работы"/>
+        <rdfs:range rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Проводит_операции -->
+
+    <owl:DatatypeProperty rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Проводит_операции">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница">
+        <webprotege:RBFRnO0PHJc3EfNzCSpYjkm>enter</webprotege:RBFRnO0PHJc3EfNzCSpYjkm>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Большой -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Большой">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стаж_работы"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Врач -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Врач">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#имеет_стаж_работы"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Большой"/>
+                            <rdf:Description rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Средний"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Проводит_операции"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Гастроэнтерологическое_отделение -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Гастроэнтерологическое_отделение">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_клиническое"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Гинекологическое_отделение -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Гинекологическое_отделение">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_клиническое"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Дневной_стационар -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Дневной_стационар">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_амбулаторное"/>
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стационар"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#имеет_стаж_работы"/>
+                <owl:allValuesFrom rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Большой"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Проводит_операции"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Кардиохирургическое_отделение -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Кардиохирургическое_отделение">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_клиническое"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Малый -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Малый">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стаж_работы"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#МедбратМедсестра -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#МедбратМедсестра">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#имеет_стаж_работы"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Малый"/>
+                            <rdf:Description rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Средний"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Проводит_операции"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник">
+        <webprotege:R8X9z63rEeQSc0iLJ0bj2TU>enter</webprotege:R8X9z63rEeQSc0iLJ0bj2TU>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>enter</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+        <webprotege:RDKMxhNew7CAHlWtuIbzFmU>enter</webprotege:RDKMxhNew7CAHlWtuIbzFmU>
+        <webprotege:RDtnd4ltC88etdX7FVir5Vk>enter</webprotege:RDtnd4ltC88etdX7FVir5Vk>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Неврологическое_отделение -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Неврологическое_отделение">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_клиническое"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Нейрохирургическое_отделение -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Нейрохирургическое_отделение">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_клиническое"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_Больницы -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_Больницы">
+        <webprotege:R7bFhFC8AfTUJ3jUn5UFHJ0>enter</webprotege:R7bFhFC8AfTUJ3jUn5UFHJ0>
+        <webprotege:RBFRnO0PHJc3EfNzCSpYjkm>enter</webprotege:RBFRnO0PHJc3EfNzCSpYjkm>
+        <webprotege:RC4tVAqP6nbZ5fqpy5ngfOu>enter</webprotege:RC4tVAqP6nbZ5fqpy5ngfOu>
+        <webprotege:RC6Op9UK3OyI9bxc2rAAvUb>enter</webprotege:RC6Op9UK3OyI9bxc2rAAvUb>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_амбулаторное -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_амбулаторное">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_Больницы"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_диагностическое -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_диагностическое">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_Больницы"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_клиническое -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_клиническое">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_Больницы"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_лучевой_диагностики -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_лучевой_диагностики">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_диагностическое"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_переливания_крови -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_переливания_крови">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_амбулаторное"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_рентгенохирургии -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_рентгенохирургии">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_диагностическое"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_травматологии_и_ортопедии -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_травматологии_и_ортопедии">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_клиническое"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_физиотерапии_и_реабилитации -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_физиотерапии_и_реабилитации">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_амбулаторное"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_функциональной_диагностики -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_функциональной_диагностики">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_диагностическое"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Оториноларингологическое_отделение -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Оториноларингологическое_отделение">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_клиническое"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Патологоанатомическое_отделение -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Патологоанатомическое_отделение">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_диагностическое"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Пациент -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Пациент">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <webprotege:R87RJqI3jhdwVpmL4WDz9Jv>enter</webprotege:R87RJqI3jhdwVpmL4WDz9Jv>
+        <webprotege:R8X9z63rEeQSc0iLJ0bj2TU>enter</webprotege:R8X9z63rEeQSc0iLJ0bj2TU>
+        <webprotege:RDKMxhNew7CAHlWtuIbzFmU>enter</webprotege:RDKMxhNew7CAHlWtuIbzFmU>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Приемное_отделение -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Приемное_отделение">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_диагностическое"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Средний -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Средний">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стаж_работы"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стаж_работы -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стаж_работы">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стационар -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стационар">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_Больницы"/>
+        <webprotege:R9BKOjQfmCPYyEhzmL31SFA>enter</webprotege:R9BKOjQfmCPYyEhzmL31SFA>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стационар_кратковременного_пребывания -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стационар_кратковременного_пребывания">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_амбулаторное"/>
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стационар"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Терапевтическое_отделение -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Терапевтическое_отделение">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_клиническое"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Урологическое_отделение -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Урологическое_отделение">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_клиническое"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Хирургическое_отделение -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Хирургическое_отделение">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_клиническое"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Эндоскопическое_отделение -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Эндоскопическое_отделение">
+        <rdfs:subClassOf rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_диагностическое"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Азамат_Маратович -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Азамат_Маратович">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Кардиохирургическое_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#МедбратМедсестра"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№_392"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#малый"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:Проводит_операции rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</be3f3b2-8281-4060-ad9b-5afe901351e2:Проводит_операции>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Александр_Анатольевич -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Александр_Анатольевич">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_травматологии_и_ортопедии"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№37"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:Проводит_операции rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</be3f3b2-8281-4060-ad9b-5afe901351e2:Проводит_операции>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Алексей_Борисович -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Алексей_Борисович">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_рентгенохирургии"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№37"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Альфия_Хасяновна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Альфия_Хасяновна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_переливания_крови"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№_392"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Анаит_Бабкеновна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Анаит_Бабкеновна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#МедбратМедсестра"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стационар_кратковременного_пребывания"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№_392"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#средний"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Андрей_Юрьевич -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Андрей_Юрьевич">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Врач"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Нейрохирургическое_отделение"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№_392"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#средний"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:Проводит_операции rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</be3f3b2-8281-4060-ad9b-5afe901351e2:Проводит_операции>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Антон_Сергеевич -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Антон_Сергеевич">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стационар_кратковременного_пребывания"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№37"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№37 -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№37">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Дневной_стационар"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_рентгенохирургии"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_травматологии_и_ортопедии"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Патологоанатомическое_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стационар_кратковременного_пребывания"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Терапевтическое_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Урологическое_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Эндоскопическое_отделение"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№82 -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№82">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Гастроэнтерологическое_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Гинекологическое_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Дневной_стационар"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Кардиохирургическое_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_лучевой_диагностики"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_переливания_крови"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_рентгенохирургии"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_функциональной_диагностики"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Хирургическое_отделение"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№_392 -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№_392">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Неврологическое_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Нейрохирургическое_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_физиотерапии_и_реабилитации"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Оториноларингологическое_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Патологоанатомическое_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Приемное_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стационар_кратковременного_пребывания"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Эндоскопическое_отделение"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Виталий_Викторович -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Виталий_Викторович">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Нейрохирургическое_отделение"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№_392"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-нейрохирург</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Григорий_Евгеньевич -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Григорий_Евгеньевич">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Приемное_отделение"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№_392"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-терапевт</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Денис_Владиславович -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Денис_Владиславович">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_физиотерапии_и_реабилитации"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№_392"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач физической и реабилитационной медицины, кинезиолог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Дмитрий_Александрович -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Дмитрий_Александрович">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#МедбратМедсестра"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Хирургическое_отделение"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№82"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#малый"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-хирург</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Евгений_Иванович -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Евгений_Иванович">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Врач"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Терапевтическое_отделение"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№37"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:Проводит_операции rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</be3f3b2-8281-4060-ad9b-5afe901351e2:Проводит_операции>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-ревматолог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Екатерина_Сергеевна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Екатерина_Сергеевна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#МедбратМедсестра"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_функциональной_диагностики"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№82"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#малый"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-кардиолог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Елена_Вячеславовна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Елена_Вячеславовна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Врач"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_функциональной_диагностики"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№82"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#средний"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:Проводит_операции rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</be3f3b2-8281-4060-ad9b-5afe901351e2:Проводит_операции>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач функциональной диагностики</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ибрагим_Энверович -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ибрагим_Энверович">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Урологическое_отделение"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№37"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-уролог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Игорь_Фёдорович -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Игорь_Фёдорович">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Врач"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стационар_кратковременного_пребывания"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№37"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#средний"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:Проводит_операции rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</be3f3b2-8281-4060-ad9b-5afe901351e2:Проводит_операции>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-уролог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Илья_Вячеславович -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Илья_Вячеславович">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Хирургическое_отделение"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№82"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-хирург</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Илья_Германович -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Илья_Германович">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Гастроэнтерологическое_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№82"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-гастроэнтеролог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Илья_Леонидович -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Илья_Леонидович">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Кардиохирургическое_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№82"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-сердечно-сосудистый хирург</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ильяс_Файсалович -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ильяс_Файсалович">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Врач"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Оториноларингологическое_отделение"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№_392"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-оториноларинголог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Кенан_Каинатович -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Кенан_Каинатович">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Врач"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Приемное_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Урологическое_отделение"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№37"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-уролог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Людмила_Алексеевна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Людмила_Алексеевна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#МедбратМедсестра"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_физиотерапии_и_реабилитации"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№_392"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#малый"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-физиотерапевт</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Людмила_Юрьевна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Людмила_Юрьевна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Врач"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Гастроэнтерологическое_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№82"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#средний"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-гастроэнтеролог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Максим_Владимирович -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Максим_Владимирович">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Дневной_стационар"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№82"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-невролог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Михаил_Владиславович -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Михаил_Владиславович">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Врач"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Эндоскопическое_отделение"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№37"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#средний"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-эндоскопист</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Наталья_Владимировна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Наталья_Владимировна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Патологоанатомическое_отделение"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№_392"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-патологоанатом</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ольга_Александровна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ольга_Александровна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Неврологическое_отделение"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№_392"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-невролог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ольга_Алексеевна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ольга_Алексеевна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Гинекологическое_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№82"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-акушер-гинеколог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ольга_Валентиновна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ольга_Валентиновна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_функциональной_диагностики"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№82"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач функциональной диагностики</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ольга_Геннадьевна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ольга_Геннадьевна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#МедбратМедсестра"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Стационар_кратковременного_пребывания"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№_392"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#средний"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-хирург</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ольга_Михайловна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ольга_Михайловна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Врач"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_лучевой_диагностики"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№82"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-рентгенолог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ольга_Николаевна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ольга_Николаевна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Оториноларингологическое_отделение"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№_392"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-оториноларинголог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ольга_Олеговна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Ольга_Олеговна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Отделение_лучевой_диагностики"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№82"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-маммолог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Светлана_Васильевна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Светлана_Васильевна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Терапевтическое_отделение"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№37"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-терапевт</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Станислав_Юрьевич -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Станислав_Юрьевич">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Заведующий_отделением"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Эндоскопическое_отделение"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№37"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-эндоскопист</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Татьяна_Александровна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Татьяна_Александровна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Гинекологическое_отделение"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#МедбратМедсестра"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№82"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#средний"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-акушер-гинеколог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Татьяна_Викторовна -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Татьяна_Викторовна">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Врач"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Медицинский_работник"/>
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Неврологическое_отделение"/>
+        <webprotege:RBbpbJ1Unl2BdtwCPOLzCFS rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Больница_№_392"/>
+        <be3f3b2-8281-4060-ad9b-5afe901351e2:имеет_стаж_работы rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#средний"/>
+        <webprotege:RBFFjjjw8nawMgOGD9o0P4V>Врач-невролог</webprotege:RBFFjjjw8nawMgOGD9o0P4V>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#большой">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Большой"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#малый -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#малый">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Малый"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#средний -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#средний">
+        <rdf:type rdf:resource="urn:webprotege:ontology:2be3f3b2-8281-4060-ad9b-5afe901351e2#Средний"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
